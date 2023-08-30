@@ -6,7 +6,7 @@ setup(name='clean_folder',
     author='Fly',
     description='Very usefull code',
     entry_points={
-          'console_scripts' : ('clean-folder = clean_folder.clear:main',
+          'console_scripts' : ('clean-folder = clean_folder.clean:main',
                                'fill-files = clean_folder.files_generator:file_generator')
           
     }
